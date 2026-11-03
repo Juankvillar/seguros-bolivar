@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: seguros-bolivar
+
+app:
+  policy:
+    ipc-rate: 0.05
+  security:
+    api-key: 123456

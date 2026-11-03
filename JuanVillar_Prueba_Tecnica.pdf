@@ -1,0 +1,1367 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R] /Count 12 >>
+endobj
+3 0 obj
+<< /Title (Prueba Tecnica Desarrollador TI Senior - Seguros Bolivar)
+   /Author (Juan Carlos Villar Herrera)
+   /Subject (Modulos 1 al 5)
+>>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 28 0 R /F2 29 0 R /F3 30 0 R /F4 31 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 4416 >>
+stream
+0.00 0.49 0.20 rg 50.0 715.0 175.0 20.0 re f 
+1.00 1.00 1.00 rg BT /F2 9.0 Tf 58.0 721.0 Td (SEGUROS BOLÍVAR) Tj ET 
+0.85 0.95 0.88 rg BT /F1 7.5 Tf 160.0 721.0 Td (PROCESO TI) Tj ET 
+0.04 0.14 0.27 rg BT /F2 20.0 Tf 50.0 675.0 Td (Prueba Técnica - Desarrollador TI / Sénior) Tj ET 
+0.30 0.35 0.40 rg BT /F1 10.5 Tf 50.0 652.0 Td (Informe técnico consolidado: arquitectura, implementación, datos, versionamiento y liderazgo) Tj ET 
+0.94 0.97 0.95 rg 0.00 0.49 0.20 RG 1.0 w 50.0 548.0 512.0 84.0 re b 
+0.00 0.45 0.18 rg BT /F2 9.0 Tf 62.0 616.0 Td (Presentación del entregable) Tj ET 
+0.15 0.20 0.15 rg BT /F1 8.0 Tf 62.0 602.0 Td (• Documento único que integra los cinco módulos requeridos; una matriz de cumplimiento enlaza cada requerimiento del enunciado) Tj ET 
+0.15 0.20 0.15 rg BT /F1 8.0 Tf 62.0 591.7 Td (con su respuesta.) Tj ET 
+0.15 0.20 0.15 rg BT /F1 8.0 Tf 62.0 579.4 Td (• Módulo 2 implementado en Java 21 y Spring Boot 3.4.3, versionado en GitHub; 18 pruebas automatizadas ejecutadas en verde.) Tj ET 
+0.15 0.20 0.15 rg BT /F1 8.0 Tf 62.0 567.1 Td (• Cada decisión incluye su justificación, sus compromisos \(trade-offs\) y los supuestos adoptados donde el enunciado no define el) Tj ET 
+0.15 0.20 0.15 rg BT /F1 8.0 Tf 62.0 556.8 Td (detalle.) Tj ET 
+0.98 0.99 1.00 rg 0.75 0.82 0.88 RG 1.0 w 50.0 400.0 512.0 130.0 re b 
+0.10 0.15 0.22 rg BT /F2 8.8 Tf 68.0 510.0 Td (Candidato:) Tj ET 
+0.15 0.20 0.25 rg BT /F1 8.8 Tf 200.0 510.0 Td (Juan Carlos Villar Herrera) Tj ET 
+0.10 0.15 0.22 rg BT /F2 8.8 Tf 68.0 489.0 Td (Posición evaluada:) Tj ET 
+0.15 0.20 0.25 rg BT /F1 8.8 Tf 200.0 489.0 Td (Desarrollador TI / Sénior) Tj ET 
+0.10 0.15 0.22 rg BT /F2 8.8 Tf 68.0 468.0 Td (Repositorio \(Módulo 2\):) Tj ET 
+0.15 0.20 0.25 rg BT /F1 8.8 Tf 200.0 468.0 Td (https://github.com/Juankvillar/seguros-bolivar) Tj ET 
+0.10 0.15 0.22 rg BT /F2 8.8 Tf 68.0 447.0 Td (Stack tecnológico:) Tj ET 
+0.15 0.20 0.25 rg BT /F1 8.8 Tf 200.0 447.0 Td (Java 21 | Spring Boot 3.4.3 | Maven | JUnit 5 | MockMvc) Tj ET 
+0.10 0.15 0.22 rg BT /F2 8.8 Tf 68.0 426.0 Td (Fecha:) Tj ET 
+0.15 0.20 0.25 rg BT /F1 8.8 Tf 200.0 426.0 Td (Noviembre 2026) Tj ET 
+0.04 0.14 0.27 rg BT /F2 10.5 Tf 50.0 375.0 Td (Contenido del informe) Tj ET 
+0.00 0.49 0.20 RG 1.0 w 50.0 368.0 m 562.0 368.0 l s 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 354.0 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.8 Tf 64.0 354.0 Td (Módulo 1 - Diseño de Sistema: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.8 Tf 184.5 354.0 Td (arquitectura de alto nivel, tres patrones justificados, modelo de datos, escalabilidad, observabilidad,) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.8 Tf 64.0 343.8 Td (tolerancia a fallos, versionamiento y diagrama de componentes con la integración CORE vía WebLogic.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 330.1 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.8 Tf 64.0 330.1 Td (Módulo 2 - Prueba Técnica Práctica: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.8 Tf 205.3 330.1 Td (API Spring Boot por capas con los seis endpoints, mock de CORE, API key y reglas de negocio;) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.8 Tf 64.0 319.9 Td (trazabilidad requisito - código - prueba.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 306.2 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.8 Tf 64.0 306.2 Td (Módulo 3 - Conocimientos en BBDD: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.8 Tf 207.4 306.2 Td (estrategias de optimización del JOIN entre orders \(10 M\) y customers \(500 mil\) filtrando México, con) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.8 Tf 64.0 296.0 Td (trade-offs y método de validación.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 282.3 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.8 Tf 64.0 282.3 Td (Módulo 4 - Conocimientos en Git: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.8 Tf 195.7 282.3 Td (incorporación de un cambio crítico de main a feature/new-login con git cherry-pick -x: comandos,) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.8 Tf 64.0 272.1 Td (justificación y variantes.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 258.4 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.8 Tf 64.0 258.4 Td (Módulo 5 - Liderazgo Técnico y Gestión: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.8 Tf 221.3 258.4 Td (respuesta a las cinco preguntas: prioridades, organización, métricas, prácticas obligatorias y) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.8 Tf 64.0 248.2 Td (manejo de la presión del negocio.) Tj ET 
+0.50 0.55 0.60 rg BT /F1 7.5 Tf 50.0 50.0 Td (Documento técnico preparado para el comité de evaluación.) Tj ET 
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 28 0 R /F2 29 0 R /F3 30 0 R /F4 31 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 8143 >>
+stream
+0.40 0.45 0.50 rg BT /F2 7.2 Tf 50.0 755.0 Td (SEGUROS BOLÍVAR  |  EVALUACIÓN TÉCNICA TI SÉNIOR  |  JUAN CARLOS VILLAR) Tj ET 
+0.80 0.84 0.88 RG 0.5 w 50.0 748.0 m 562.0 748.0 l s 
+0.80 0.84 0.88 RG 0.5 w 50.0 36.0 m 562.0 36.0 l s 
+0.45 0.50 0.55 rg BT /F1 7.0 Tf 50.0 24.0 Td (Documento Técnico de Solución - Confidencial para Evaluación de Talento) Tj ET 
+0.45 0.50 0.55 rg BT /F2 7.0 Tf 515.0 24.0 Td (Página 2 de 12) Tj ET 
+0.04 0.15 0.28 rg 50.0 724.0 512.0 22.0 re f 
+1.00 1.00 1.00 rg BT /F2 9.5 Tf 60.0 731.0 Td (MATRIZ DE CUMPLIMIENTO Y SUPUESTOS GENERALES) Tj ET 
+0.00 0.49 0.20 rg 507.0 728.0 45.0 14.0 re f 
+1.00 1.00 1.00 rg BT /F2 7.0 Tf 512.0 732.0 Td (RESUMEN) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 709.0 Td (Trazabilidad entre el enunciado y este documento) Tj ET 
+0.91 0.94 0.97 rg 0.76 0.81 0.86 RG 0.8 w 50.0 681.2 512.0 14.8 re b 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 54.0 687.0 Td (Módulo) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 112.0 681.2 m 112.0 696.0 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 116.0 687.0 Td (Lo que pide el enunciado) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 374.0 681.2 m 374.0 696.0 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 378.0 687.0 Td (Dónde se responde) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 657.6 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 672.2 Td (1 Diseño) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 112.0 657.6 m 112.0 681.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 116.0 672.2 Td (Arquitectura de alto nivel de la plataforma \(crear/consultar/modificar, renovación) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 116.0 663.5 Td (automática, notificaciones, CORE, 24/7\).) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 657.6 m 374.0 681.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 672.2 Td (Secciones 1.1, 1.2 y 1.3) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 642.8 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 648.6 Td (1 Diseño) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 112.0 642.8 m 112.0 657.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 116.0 648.6 Td (Seleccionar 3 patrones de arquitectura y justificarlos.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 642.8 m 374.0 657.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 648.6 Td (Sección 1.4) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 628.0 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 633.9 Td (1 Diseño) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 112.0 628.0 m 112.0 642.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 116.0 633.9 Td (Modelo de datos principal, sin SQL detallado.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 628.0 m 374.0 642.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 633.9 Td (Sección 1.5) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 613.2 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 619.1 Td (1 Diseño) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 112.0 613.2 m 112.0 628.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 116.0 619.1 Td (Escalabilidad, logs y observabilidad, tolerancia a fallos y versionamiento de APIs.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 613.2 m 374.0 628.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 619.1 Td (Sección 1.6) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 589.6 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 604.3 Td (1 Diseño) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 112.0 589.6 m 112.0 613.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 116.0 604.3 Td (Diagrama: Pólizas, Riesgos, Notificaciones, Adapter CORE, base de datos y API) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 116.0 595.5 Td (Gateway.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 589.6 m 374.0 613.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 604.3 Td (Sección 1.7 \(incluye WebLogic y CORE\)) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 574.8 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 580.7 Td (2 Práctica) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 112.0 574.8 m 112.0 589.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 116.0 580.7 Td (Spring Boot por capas, entidades Poliza y Riesgo, validaciones y README.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 574.8 m 374.0 589.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 580.7 Td (Secciones 2.1 y 2.2; README del repositorio) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 560.0 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 565.9 Td (2 Práctica) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 112.0 560.0 m 112.0 574.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 116.0 565.9 Td (Seis endpoints, mock POST /core-mock/evento y header x-api-key: 123456.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 560.0 m 374.0 574.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 565.9 Td (Sección 2.3) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 545.2 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 551.1 Td (2 Práctica) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 112.0 545.2 m 112.0 560.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 116.0 551.1 Td (Cuatro reglas de negocio esenciales.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 545.2 m 374.0 560.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 551.1 Td (Sección 2.4 \(regla - código - prueba\)) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 521.6 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 536.3 Td (3 BBDD) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 112.0 521.6 m 112.0 545.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 116.0 536.3 Td (Al menos tres estrategias para optimizar el JOIN orders / customers filtrando) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 116.0 527.5 Td (México.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 521.6 m 374.0 545.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 536.3 Td (Sección 3.2 \(cinco estrategias\)) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 498.0 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 512.7 Td (4 Git) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 112.0 498.0 m 112.0 521.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 116.0 512.7 Td (Comando o estrategia para llevar un cambio de main a feature/new-login y por) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 116.0 503.9 Td (qué.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 498.0 m 374.0 521.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 512.7 Td (Secciones 4.2 a 4.5) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 474.4 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 489.1 Td (5 Liderazgo) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 112.0 474.4 m 112.0 498.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 116.0 489.1 Td (Cinco preguntas: prioridades, organización, métricas, prácticas obligatorias y) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 116.0 480.3 Td (presión del negocio.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 474.4 m 374.0 498.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 489.1 Td (Preguntas 1 a 5) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 458.4 Td (Supuestos generales) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 445.4 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 445.4 Td (Motor de base de datos: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 154.7 445.4 Td (el enunciado no lo define. Se usa SQL estándar y se indican equivalentes Oracle donde aplica, dado que menciona) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 435.5 Td (PL/SQL y WebLogic.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 424.1 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 424.1 Td (IPC: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 81.5 424.1 Td (no se define fuente ni formato. En el ejercicio es un parámetro configurable \(5 %\) que el consumidor no puede modificar; en el diseño se) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 414.2 Td (propone una tabla de parámetros auditada.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 402.8 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 402.8 Td (Contrato del CORE: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 138.4 402.8 Td (se desconoce el contrato del servicio agnóstico de edición; se diseña un adapter con contrato canónico propio y se) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 392.9 Td (documenta la decisión síncrona o asíncrona.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 381.5 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 381.5 Td (Tecnologías de referencia: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 163.7 381.5 Td (broker de mensajes, motor de base de datos y librerías de resiliencia son opciones de referencia, no obligaciones) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 371.6 Td (del diseño.) Tj ET 
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 28 0 R /F2 29 0 R /F3 30 0 R /F4 31 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 10506 >>
+stream
+0.40 0.45 0.50 rg BT /F2 7.2 Tf 50.0 755.0 Td (SEGUROS BOLÍVAR  |  EVALUACIÓN TÉCNICA TI SÉNIOR  |  JUAN CARLOS VILLAR) Tj ET 
+0.80 0.84 0.88 RG 0.5 w 50.0 748.0 m 562.0 748.0 l s 
+0.80 0.84 0.88 RG 0.5 w 50.0 36.0 m 562.0 36.0 l s 
+0.45 0.50 0.55 rg BT /F1 7.0 Tf 50.0 24.0 Td (Documento Técnico de Solución - Confidencial para Evaluación de Talento) Tj ET 
+0.45 0.50 0.55 rg BT /F2 7.0 Tf 515.0 24.0 Td (Página 3 de 12) Tj ET 
+0.04 0.15 0.28 rg 50.0 724.0 512.0 22.0 re f 
+1.00 1.00 1.00 rg BT /F2 9.5 Tf 60.0 731.0 Td (MÓDULO 1 - DISEÑO DE SISTEMA: PLATAFORMA DE GESTIÓN DE PÓLIZAS) Tj ET 
+0.00 0.49 0.20 rg 486.0 728.0 66.0 14.0 re f 
+1.00 1.00 1.00 rg BT /F2 7.0 Tf 491.0 732.0 Td (ARQUITECTURA) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 709.0 Td (1.1 Contexto y reglas de dominio) Tj ET 
+0.91 0.94 0.97 rg 0.76 0.81 0.86 RG 0.8 w 50.0 681.2 512.0 14.8 re b 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 54.0 687.0 Td (Concepto) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 142.0 681.2 m 142.0 696.0 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 146.0 687.0 Td (Regla del negocio) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 666.4 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 672.2 Td (Póliza individual) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 142.0 666.4 m 142.0 681.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 672.2 Td (Tomador y asegurado: el arrendatario. Beneficiario: el arrendador. Tiene exactamente un riesgo.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 642.8 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 657.5 Td (Póliza colectiva) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 142.0 642.8 m 142.0 666.4 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 657.5 Td (Orientada a inmobiliarias y administraciones de copropiedad. Se asegura a los arrendatarios y los beneficiarios son los) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 648.7 Td (arrendadores. Tiene uno o muchos riesgos.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 619.2 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 633.9 Td (Valores) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 142.0 619.2 m 142.0 642.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 633.9 Td (Toda póliza tiene periodo de vigencia, canon mensual de arrendamiento y prima. Prima = canon mensual x número de meses de la) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 625.1 Td (vigencia.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 604.4 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 610.2 Td (Renovación) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 142.0 604.4 m 142.0 619.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 610.2 Td (Por el mismo periodo de vigencia inicial. El canon se ajusta según el incremento del IPC y la prima se recalcula con el nuevo canon.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 589.6 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 595.5 Td (Cancelación) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 142.0 589.6 m 142.0 604.4 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 595.5 Td (Cancelar una póliza cancela todos sus riesgos. Una póliza cancelada no se renueva.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 566.0 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 580.7 Td (Integración) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 142.0 566.0 m 142.0 589.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 580.7 Td (Toda acción que modifique el estado de pólizas o riesgos consume el servicio agnóstico de edición, expuesto por la capa media) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 571.9 Td (WebLogic, que mantiene actualizado el CORE.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 550.0 Td (1.2 Arquitectura de alto nivel) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 537.0 Td (Se propone una arquitectura por componentes de negocio, con una puerta de entrada única y la integración con el CORE aislada en un adapter.) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 526.7 Td (Los componentes son lógicos: pueden desplegarse como servicios independientes o como un monolito modular inicial y separarse según carga y) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 516.4 Td (equipos, sin imponer microservicios desde el primer día.) Tj ET 
+0.91 0.94 0.97 rg 0.76 0.81 0.86 RG 0.8 w 50.0 489.3 512.0 14.8 re b 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 54.0 495.2 Td (Componente) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 178.0 489.3 m 178.0 504.1 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 182.0 495.2 Td (Responsabilidad) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 465.7 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 480.4 Td (API Gateway) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 178.0 465.7 m 178.0 489.3 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 182.0 480.4 Td (Punto único de acceso para el front y otros consumidores: autenticación, límites de consumo \(rate limiting\), ruteo) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 182.0 471.6 Td (versionado y correlación de trazas.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 442.1 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 456.8 Td (Servicio de Pólizas) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 178.0 442.1 m 178.0 465.7 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 182.0 456.8 Td (Crear, consultar y modificar pólizas; renovar \(+IPC\) y cancelar. Aplica las reglas de vigencia, canon y prima. Es la fuente) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 182.0 448.0 Td (de verdad del estado de la póliza.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 427.3 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 433.2 Td (Servicio de Riesgos) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 178.0 427.3 m 178.0 442.1 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 182.0 433.2 Td (Consultar, agregar y cancelar riesgos. Valida las invariantes según el tipo de póliza \(individual: 1; colectiva: 1..N\).) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 403.7 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 418.4 Td (Renovación automática) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 178.0 403.7 m 178.0 427.3 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 182.0 418.4 Td (Proceso programado e idempotente: identifica pólizas próximas a vencer y solicita la renovación al Servicio de Pólizas,) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 182.0 409.6 Td (sin duplicar reglas de negocio.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 380.1 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 394.8 Td (Servicio de Notificaciones) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 178.0 380.1 m 178.0 403.7 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 182.0 394.8 Td (Consume los eventos de creación y renovación confirmadas y envía correo o SMS con reintentos, sin bloquear la) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 182.0 386.0 Td (operación principal.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 356.5 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 371.2 Td (Adapter de integración con CORE) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 178.0 356.5 m 178.0 380.1 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 182.0 371.2 Td (Capa anticorrupción \(ACL\): traduce el modelo del dominio al contrato del servicio de edición y gestiona idempotencia,) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 182.0 362.4 Td (timeouts y reintentos.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 332.9 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 347.6 Td (Capa media WebLogic y servicio) Tj ET 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 338.8 Td (agnóstico de edición) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 178.0 332.9 m 178.0 356.5 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 182.0 347.6 Td (Ruta obligatoria de toda modificación de estado; actualiza el CORE transaccional legado.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 309.3 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 324.0 Td (Base de datos) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 178.0 309.3 m 178.0 332.9 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 182.0 324.0 Td (Estado transaccional de pólizas, riesgos, participantes, renovaciones, bitácora de operaciones CORE y outbox de) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 182.0 315.2 Td (eventos.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 293.3 Td (1.3 Flujo de una modificación de estado \(CORE vía WebLogic\)) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 280.3 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 280.3 Td (1. ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 72.6 280.3 Td (El API Gateway autentica, aplica límites y enruta la solicitud al servicio dueño del recurso.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 268.9 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 268.9 Td (2. ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 72.6 268.9 Td (El servicio valida las reglas de negocio \(por ejemplo, una póliza cancelada no se renueva\).) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 257.5 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 257.5 Td (3. ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 72.6 257.5 Td (Registra la operación con una clave de idempotencia y la invoca mediante el puerto de edición del CORE.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 246.1 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 246.1 Td (4. ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 72.6 246.1 Td (El adapter traduce el mensaje y llama a la capa media WebLogic, que consume el servicio agnóstico de edición y actualiza el CORE.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 234.7 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 234.7 Td (5. ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 72.6 234.7 Td (Con confirmación exitosa, el cambio de estado se confirma en la base de datos y, en la misma transacción, se escribe el evento en la tabla) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 224.8 Td (outbox.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 213.4 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 213.4 Td (6. ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 72.6 213.4 Td (Un publicador entrega el evento al broker; Notificaciones lo consume y envía el correo o SMS.) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 202.0 Td (Al cancelar una póliza también cambian sus riesgos: el cambio debe llegar al CORE mediante operaciones individuales o una operación) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 191.7 Td (compuesta, según el contrato del servicio agnóstico. Si el CORE no responde, la operación queda registrada como PENDIENTE con su clave de) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 181.4 Td (idempotencia para reintento controlado, o se devuelve un error recuperable \(503\), según el acuerdo de negocio con CORE. Nunca se pierde ni se) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 171.1 Td (duplica.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 157.8 Td (1.4 Tres patrones de arquitectura seleccionados) Tj ET 
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 28 0 R /F2 29 0 R /F3 30 0 R /F4 31 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 11807 >>
+stream
+0.40 0.45 0.50 rg BT /F2 7.2 Tf 50.0 755.0 Td (SEGUROS BOLÍVAR  |  EVALUACIÓN TÉCNICA TI SÉNIOR  |  JUAN CARLOS VILLAR) Tj ET 
+0.80 0.84 0.88 RG 0.5 w 50.0 748.0 m 562.0 748.0 l s 
+0.80 0.84 0.88 RG 0.5 w 50.0 36.0 m 562.0 36.0 l s 
+0.45 0.50 0.55 rg BT /F1 7.0 Tf 50.0 24.0 Td (Documento Técnico de Solución - Confidencial para Evaluación de Talento) Tj ET 
+0.45 0.50 0.55 rg BT /F2 7.0 Tf 515.0 24.0 Td (Página 4 de 12) Tj ET 
+0.91 0.94 0.97 rg 0.76 0.81 0.86 RG 0.8 w 50.0 715.2 512.0 14.8 re b 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 54.0 721.0 Td (Patrón) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 128.0 715.2 m 128.0 730.0 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 132.0 721.0 Td (Dónde se aplica) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 246.0 715.2 m 246.0 730.0 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 250.0 721.0 Td (Por qué se justifica) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 418.0 715.2 m 418.0 730.0 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 422.0 721.0 Td (Compromiso y mitigación) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 682.8 512.0 32.4 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 706.2 Td (API Gateway) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 128.0 682.8 m 128.0 715.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 132.0 706.2 Td (Entrada única para el front y los) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 132.0 697.5 Td (consumidores de pólizas y riesgos.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 246.0 682.8 m 246.0 715.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 250.0 706.2 Td (Centraliza seguridad, límites de consumo,) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 250.0 697.5 Td (trazabilidad y convivencia de versiones. El cliente no) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 250.0 688.6 Td (conoce la topología interna.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 418.0 682.8 m 418.0 715.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 422.0 706.2 Td (Es crítico y puede ser punto único de falla:) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 422.0 697.5 Td (se despliega redundado \(activo-activo\) y) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 422.0 688.6 Td (monitoreado.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 641.6 512.0 41.2 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 673.9 Td (Hexagonal \(puertos) Tj ET 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 665.1 Td (y adaptadores\)) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 128.0 641.6 m 128.0 682.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 132.0 673.9 Td (Pólizas y Riesgos definen puertos) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 132.0 665.1 Td (de persistencia, CORE y eventos.) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 132.0 656.2 Td (WebLogic/CORE es un adaptador) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 132.0 647.5 Td (de salida.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 246.0 641.6 m 246.0 682.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 250.0 673.9 Td (Aísla las reglas de negocio de la infraestructura y del) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 250.0 665.1 Td (acoplamiento con el CORE legado; permite probar) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 250.0 656.2 Td (con dobles y cambiar la integración sin reescribir) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 250.0 647.5 Td (casos de uso.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 418.0 641.6 m 418.0 682.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 422.0 673.9 Td (Más interfaces y mapeos \(DTOs\). Se) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 422.0 665.1 Td (compensa con mantenibilidad. El Módulo 2) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 422.0 656.2 Td (aplica esta separación con CoreGateway.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 600.4 512.0 41.2 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 632.6 Td (Orientada a eventos) Tj ET 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 623.9 Td (\(con Outbox\)) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 128.0 600.4 m 128.0 641.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 132.0 632.6 Td (Las pólizas creadas o renovadas) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 132.0 623.9 Td (publican eventos que consume) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 132.0 615.0 Td (Notificaciones.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 246.0 600.4 m 246.0 641.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 250.0 632.6 Td (Desacopla la operación principal del envío de) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 250.0 623.9 Td (correo/SMS: se reintenta sin bloquear y escala por) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 250.0 615.0 Td (separado.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 418.0 600.4 m 418.0 641.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 422.0 632.6 Td (Consistencia eventual: exige consumidores) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 422.0 623.9 Td (idempotentes, cola de mensajes no) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 422.0 615.0 Td (procesables \(DLQ\) y monitoreo de eventos) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 422.0 606.2 Td (pendientes.) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 587.4 Td (Considerados y descartados como patrón principal: CQRS \(la carga de lectura actual no justifica modelos separados; se reevalúa si crecen los) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 577.1 Td (reportes\) y microservicios completos \(se separan por carga y equipo, no por defecto\).) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 563.8 Td (1.5 Modelo de datos principal) Tj ET 
+0.91 0.94 0.97 rg 0.76 0.81 0.86 RG 0.8 w 50.0 536.0 512.0 14.8 re b 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 54.0 541.9 Td (Entidad) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 142.0 536.0 m 142.0 550.8 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 146.0 541.9 Td (Atributos clave) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 374.0 536.0 m 374.0 550.8 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 378.0 541.9 Td (Relación y propósito) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 503.6 512.0 32.4 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 527.1 Td (Poliza) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 142.0 503.6 m 142.0 536.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 527.1 Td (id, tipo \(INDIVIDUAL/COLECTIVA\), estado) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 518.3 Td (\(ACTIVA/RENOVADA/CANCELADA\), fechaInicio, fechaFin,) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 509.5 Td (vigenciaMesesInicial, canonMensual, prima, version.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 503.6 m 374.0 536.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 527.1 Td (Prima = canon x vigencia. Conserva la vigencia inicial) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 518.3 Td (para renovar por el mismo periodo; version permite) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 509.5 Td (control optimista de concurrencia.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 480.0 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 494.7 Td (Riesgo) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 142.0 480.0 m 142.0 503.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 494.7 Td (id, polizaId, estado \(ACTIVO/CANCELADO\), descripción y dirección del) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 485.9 Td (inmueble.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 480.0 m 374.0 503.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 494.7 Td (N:1 con Poliza. Individual: exactamente 1. Colectiva: 1..N.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 456.4 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 471.1 Td (Persona) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 142.0 456.4 m 142.0 480.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 471.1 Td (id, tipoDocumento, numeroDocumento, nombre, correo, teléfono.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 456.4 m 374.0 480.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 471.1 Td (Reutilizable para arrendatarios, arrendadores,) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 462.3 Td (inmobiliarias y administraciones.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 432.8 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 447.5 Td (TomadorPoliza) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 142.0 432.8 m 142.0 456.4 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 447.5 Td (polizaId, personaId.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 432.8 m 374.0 456.4 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 447.5 Td (Individual: el arrendatario. Colectiva: la inmobiliaria o) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 438.7 Td (administración de copropiedad.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 418.0 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 423.9 Td (ParticipanteRiesgo) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 142.0 418.0 m 142.0 432.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 423.9 Td (riesgoId, personaId, rol \(ASEGURADO/BENEFICIARIO\).) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 418.0 m 374.0 432.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 423.9 Td (Asegurado: arrendatario. Beneficiario: arrendador.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 394.4 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 409.1 Td (Renovacion) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 142.0 394.4 m 142.0 418.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 409.1 Td (id, polizaId, vigencia, ipcAplicado, canonAnterior, canonNuevo,) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 400.3 Td (primaNueva, fecha, resultado.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 394.4 m 374.0 418.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 409.1 Td (Historial auditable de cada renovación.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 370.8 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 385.5 Td (ParametroIPC) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 142.0 370.8 m 142.0 394.4 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 385.5 Td (periodo, tasa, fuente, vigenteDesde.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 370.8 m 374.0 394.4 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 385.5 Td (Evita tasas embebidas en el código y deja trazabilidad del) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 376.7 Td (ajuste.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 347.2 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 361.9 Td (OperacionCore) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 142.0 347.2 m 142.0 370.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 361.9 Td (id, entidad, tipo, estadoSync \(PENDIENTE/OK/ERROR\),) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 353.1 Td (claveIdempotencia, intentos, respuesta, fechas.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 347.2 m 374.0 370.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 361.9 Td (Bitácora de lo enviado a WebLogic/CORE; sostiene los) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 353.1 Td (reintentos seguros.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 323.6 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 338.2 Td (EventoOutbox) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 142.0 323.6 m 142.0 347.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 146.0 338.2 Td (id, tipo, payload, estado, intentos, fecha.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 374.0 323.6 m 374.0 347.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 338.2 Td (Publicación fiable de eventos de creación y renovación) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 378.0 329.4 Td (hacia Notificaciones.) Tj ET 
+0.96 0.97 0.98 rg 0.80 0.84 0.88 RG 0.7 w 50.0 250.0 512.0 60.6 re b 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 300.3 Td (Poliza 1 --- 1..N Riesgo) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 291.7 Td (Poliza 1 --- 1..N TomadorPoliza N --- 1 Persona) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 283.1 Td (Riesgo 1 --- 1..N ParticipanteRiesgo N --- 1 Persona) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 274.5 Td (Poliza 1 --- 0..N Renovacion) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 265.9 Td (Poliza / Riesgo 1 --- 0..N OperacionCore) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 257.3 Td (Poliza 1 --- 0..N EventoOutbox) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 239.0 Td (Índices por criterios frecuentes: \(tipo, estado\) para el listado, polizaId en Riesgo y estadoSync en OperacionCore. Las invariantes \(individual = 1) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 228.7 Td (riesgo; cancelada no se renueva\) se validan en el dominio y no solo con restricciones de base de datos.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 215.4 Td (1.6 Escalabilidad, observabilidad, tolerancia a fallos y versionamiento) Tj ET 
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 28 0 R /F2 29 0 R /F3 30 0 R /F4 31 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 4273 >>
+stream
+0.40 0.45 0.50 rg BT /F2 7.2 Tf 50.0 755.0 Td (SEGUROS BOLÍVAR  |  EVALUACIÓN TÉCNICA TI SÉNIOR  |  JUAN CARLOS VILLAR) Tj ET 
+0.80 0.84 0.88 RG 0.5 w 50.0 748.0 m 562.0 748.0 l s 
+0.80 0.84 0.88 RG 0.5 w 50.0 36.0 m 562.0 36.0 l s 
+0.45 0.50 0.55 rg BT /F1 7.0 Tf 50.0 24.0 Td (Documento Técnico de Solución - Confidencial para Evaluación de Talento) Tj ET 
+0.45 0.50 0.55 rg BT /F2 7.0 Tf 515.0 24.0 Td (Página 5 de 12) Tj ET 
+0.91 0.94 0.97 rg 0.76 0.81 0.86 RG 0.8 w 50.0 715.2 512.0 14.8 re b 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 54.0 721.0 Td (Tema) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 134.0 715.2 m 134.0 730.0 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 138.0 721.0 Td (Estrategia propuesta) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 674.0 512.0 41.2 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 706.2 Td (Escalabilidad) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 134.0 674.0 m 134.0 715.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 138.0 706.2 Td (Servicios sin estado detrás del Gateway, con escalado horizontal automático \(CPU y tasa de peticiones\). Réplicas de lectura y caché) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 138.0 697.5 Td (para consultas frecuentes; consultas paginadas e indexadas. Notificaciones escala por consumidores del broker. El proceso de) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 138.0 688.6 Td (renovación evita ejecuciones duplicadas \(bloqueo distribuido o ejecución única\) y procesa por lotes. Límites de concurrencia hacia el) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 138.0 679.9 Td (CORE \(bulkhead\) para que la degradación del legado no afecte a toda la plataforma.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 632.8 512.0 41.2 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 665.0 Td (Logs y observabilidad) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 134.0 632.8 m 134.0 674.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 138.0 665.0 Td (Logs estructurados \(JSON\) con identificador de correlación \(traceId\) desde el Gateway y sin datos personales innecesarios. Se) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 138.0 656.2 Td (registran polizaId, riesgoId, id de operación, resultado y latencia de las llamadas a WebLogic/CORE. Métricas de las cuatro señales) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 138.0 647.4 Td (\(latencia, tráfico, errores, saturación\), renovaciones procesadas, operaciones CORE pendientes y fallos de notificación. Trazas) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 138.0 638.6 Td (distribuidas hasta el adapter y alertas por SLO \(disponibilidad, latencia p95, backlog del outbox\).) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 591.6 512.0 41.2 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 623.8 Td (Tolerancia a fallos y) Tj ET 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 615.0 Td (24/7) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 134.0 591.6 m 134.0 632.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 138.0 623.8 Td (Varias instancias en distintas zonas con health checks y despliegues sin caída \(rolling o blue-green\). Timeouts acotados, reintentos) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 138.0 615.0 Td (con backoff exponencial y jitter, y circuit breaker hacia WebLogic/CORE. Operaciones CORE idempotentes y reintentables mediante) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 138.0 606.2 Td (OperacionCore: una falla no duplica renovaciones, cancelaciones ni notificaciones. Outbox y DLQ para eventos. Respaldo y) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 138.0 597.4 Td (recuperación de la base de datos con RPO/RTO definidos y degradación controlada si el CORE no está disponible.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 559.2 512.0 32.4 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 582.6 Td (Versionamiento de) Tj ET 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 573.8 Td (APIs) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 134.0 559.2 m 134.0 591.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 138.0 582.6 Td (Versión mayor en la ruta \(/api/v1/polizas, /api/v1/riesgos\). Los cambios compatibles son aditivos; los incompatibles crean /v2, que) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 138.0 573.8 Td (convive con v1 bajo una política de deprecación publicada. El Gateway enruta cada versión a su contrato. El contrato interno hacia) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 138.0 565.0 Td (WebLogic/CORE se versiona de forma independiente para aislar al front de cambios del legado.) Tj ET 
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 28 0 R /F2 29 0 R /F3 30 0 R /F4 31 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 9232 >>
+stream
+0.40 0.45 0.50 rg BT /F2 7.2 Tf 50.0 755.0 Td (SEGUROS BOLÍVAR  |  EVALUACIÓN TÉCNICA TI SÉNIOR  |  JUAN CARLOS VILLAR) Tj ET 
+0.80 0.84 0.88 RG 0.5 w 50.0 748.0 m 562.0 748.0 l s 
+0.80 0.84 0.88 RG 0.5 w 50.0 36.0 m 562.0 36.0 l s 
+0.45 0.50 0.55 rg BT /F1 7.0 Tf 50.0 24.0 Td (Documento Técnico de Solución - Confidencial para Evaluación de Talento) Tj ET 
+0.45 0.50 0.55 rg BT /F2 7.0 Tf 515.0 24.0 Td (Página 6 de 12) Tj ET 
+0.04 0.15 0.28 rg 50.0 724.0 512.0 22.0 re f 
+1.00 1.00 1.00 rg BT /F2 9.5 Tf 60.0 731.0 Td (MÓDULO 1 - 1.7 DIAGRAMA DE COMPONENTES) Tj ET 
+0.00 0.49 0.20 rg 503.5 728.0 48.5 14.0 re f 
+1.00 1.00 1.00 rg BT /F2 7.0 Tf 508.5 732.0 Td (DIAGRAMA) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 709.0 Td (1.7 Componentes principales e integración con el CORE) Tj ET 
+0.98 0.99 1.00 rg 0.78 0.83 0.88 RG 0.8 w 50.0 212.0 512.0 485.0 re b 
+0.94 0.97 0.99 rg 0.20 0.40 0.65 RG 0.8 w 231.0 645.0 150.0 40.0 re b 
+0.05 0.12 0.25 rg BT /F2 7.8 Tf 238.0 667.0 Td (FRONT / CANALES) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 238.0 658.5 Td (Web, asesores, inmobiliarias) Tj ET 
+0.96 0.99 0.96 rg 0.10 0.50 0.25 RG 0.8 w 55.0 575.0 150.0 40.0 re b 
+0.05 0.12 0.25 rg BT /F2 7.8 Tf 62.0 601.0 Td (RENOVACIÓN AUTOMÁTICA) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 62.0 592.5 Td (Job programado e idempotente) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 62.0 584.0 Td (Invoca al Servicio de Pólizas) Tj ET 
+0.93 0.96 0.99 rg 0.10 0.30 0.55 RG 0.8 w 231.0 575.0 150.0 40.0 re b 
+0.00 0.49 0.20 rg 355.4 605.0 21.6 8.0 re f 
+1.00 1.00 1.00 rg BT /F2 5.5 Tf 358.4 607.0 Td (EDGE) Tj ET 
+0.05 0.12 0.25 rg BT /F2 7.8 Tf 238.0 601.0 Td (API GATEWAY) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 238.0 592.5 Td (Auth x-api-key, rate limiting) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 238.0 584.0 Td (Ruteo versionado /api/v1) Tj ET 
+0.96 0.99 0.96 rg 0.10 0.50 0.25 RG 0.8 w 55.0 505.0 150.0 40.0 re b 
+0.00 0.49 0.20 rg 185.8 535.0 15.2 8.0 re f 
+1.00 1.00 1.00 rg BT /F2 5.5 Tf 188.8 537.0 Td (API) Tj ET 
+0.05 0.12 0.25 rg BT /F2 7.8 Tf 62.0 531.0 Td (SERVICIO DE PÓLIZAS) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 62.0 522.5 Td (Crear, consultar, modificar) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 62.0 514.0 Td (Renovar \(+IPC\) y cancelar) Tj ET 
+1.00 0.98 0.94 rg 0.65 0.45 0.15 RG 0.8 w 231.0 505.0 150.0 40.0 re b 
+0.00 0.49 0.20 rg 359.7 535.0 17.3 8.0 re f 
+1.00 1.00 1.00 rg BT /F2 5.5 Tf 362.7 537.0 Td (SQL) Tj ET 
+0.05 0.12 0.25 rg BT /F2 7.8 Tf 238.0 531.0 Td (BASE DE DATOS) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 238.0 522.5 Td (Relacional transaccional) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 238.0 514.0 Td (Pólizas, riesgos, outbox) Tj ET 
+0.96 0.99 0.96 rg 0.10 0.50 0.25 RG 0.8 w 407.0 505.0 150.0 40.0 re b 
+0.00 0.49 0.20 rg 537.8 535.0 15.2 8.0 re f 
+1.00 1.00 1.00 rg BT /F2 5.5 Tf 540.8 537.0 Td (API) Tj ET 
+0.05 0.12 0.25 rg BT /F2 7.8 Tf 414.0 531.0 Td (SERVICIO DE RIESGOS) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 414.0 522.5 Td (Agregar y cancelar riesgos) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 414.0 514.0 Td (Invariantes por tipo) Tj ET 
+0.94 0.97 0.99 rg 0.20 0.40 0.65 RG 0.8 w 55.0 435.0 150.0 40.0 re b 
+0.05 0.12 0.25 rg BT /F2 7.8 Tf 62.0 457.0 Td (CANAL DE EVENTOS) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 62.0 448.5 Td (Broker + Transactional Outbox) Tj ET 
+0.97 0.96 0.99 rg 0.40 0.20 0.65 RG 0.8 w 407.0 435.0 150.0 40.0 re b 
+0.05 0.12 0.25 rg BT /F2 7.8 Tf 414.0 461.0 Td (ADAPTER CORE \(ACL\)) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 414.0 452.5 Td (Contrato canónico, idempotencia) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 414.0 444.0 Td (Timeouts, reintentos, breaker) Tj ET 
+0.96 0.99 0.96 rg 0.10 0.50 0.25 RG 0.8 w 55.0 365.0 150.0 40.0 re b 
+0.00 0.49 0.20 rg 185.8 395.0 15.2 8.0 re f 
+1.00 1.00 1.00 rg BT /F2 5.5 Tf 188.8 397.0 Td (API) Tj ET 
+0.05 0.12 0.25 rg BT /F2 7.8 Tf 62.0 391.0 Td (NOTIFICACIONES) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 62.0 382.5 Td (Consumidor idempotente) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 62.0 374.0 Td (Creación y renovación) Tj ET 
+0.99 0.95 0.95 rg 0.65 0.20 0.20 RG 0.8 w 407.0 365.0 150.0 40.0 re b 
+0.05 0.12 0.25 rg BT /F2 7.8 Tf 414.0 387.0 Td (CAPA MEDIA WEBLOGIC) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 414.0 378.5 Td (Expone el servicio de edición) Tj ET 
+0.96 0.96 0.96 rg 0.45 0.45 0.45 RG 0.8 w 55.0 295.0 150.0 40.0 re b 
+0.05 0.12 0.25 rg BT /F2 7.8 Tf 62.0 317.0 Td (PROVEEDOR CORREO / SMS) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 62.0 308.5 Td (Servicio externo) Tj ET 
+0.99 0.95 0.95 rg 0.65 0.20 0.20 RG 0.8 w 407.0 295.0 150.0 40.0 re b 
+0.05 0.12 0.25 rg BT /F2 7.8 Tf 414.0 317.0 Td (SERVICIO DE EDICIÓN) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 414.0 308.5 Td (Agnóstico y corporativo) Tj ET 
+0.99 0.95 0.95 rg 0.65 0.20 0.20 RG 0.8 w 407.0 225.0 150.0 40.0 re b 
+0.05 0.12 0.25 rg BT /F2 7.8 Tf 414.0 247.0 Td (CORE TRANSACCIONAL) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 414.0 238.5 Td (Sistema legado de seguros) Tj ET 
+0.96 0.96 0.96 rg 0.45 0.45 0.45 RG 0.8 w 231.0 347.0 150.0 74.0 re b 
+0.05 0.12 0.25 rg BT /F2 7.8 Tf 238.0 390.0 Td (OBSERVABILIDAD) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 238.0 381.5 Td (Logs JSON + traceId) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 238.0 373.0 Td (Métricas y trazas) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.3 Tf 238.0 364.5 Td (Alertas por SLO) Tj ET 
+0.35 0.40 0.48 rg BT /F1 6.0 Tf 239.0 337.0 Td (Todos los componentes reportan telemetría) Tj ET 
+0.25 0.35 0.45 RG 0.8 w 306.0 645.0 m 306.0 615.0 l s 
+0.25 0.35 0.45 rg 306.0 615.0 m 303.5 619.5 l 308.5 619.5 l f 
+0.25 0.35 0.45 RG 0.8 w 306.0 575.0 m 306.0 560.0 l s 
+0.25 0.35 0.45 RG 0.8 w 170.0 560.0 m 482.0 560.0 l s 
+0.25 0.35 0.45 RG 0.8 w 170.0 560.0 m 170.0 545.0 l s 
+0.25 0.35 0.45 rg 170.0 545.0 m 167.5 549.5 l 172.5 549.5 l f 
+0.25 0.35 0.45 RG 0.8 w 482.0 560.0 m 482.0 545.0 l s 
+0.25 0.35 0.45 rg 482.0 545.0 m 479.5 549.5 l 484.5 549.5 l f 
+0.25 0.35 0.45 RG 0.8 w 90.0 575.0 m 90.0 545.0 l s 
+0.25 0.35 0.45 rg 90.0 545.0 m 87.5 549.5 l 92.5 549.5 l f 
+0.55 0.40 0.20 RG 0.8 w 205.0 525.0 m 231.0 525.0 l s 
+0.55 0.40 0.20 rg 231.0 525.0 m 226.5 522.5 l 226.5 527.5 l f 
+0.55 0.40 0.20 RG 0.8 w 407.0 525.0 m 381.0 525.0 l s 
+0.55 0.40 0.20 rg 381.0 525.0 m 385.5 527.5 l 385.5 522.5 l f 
+0.25 0.35 0.45 RG 0.8 w 130.0 505.0 m 130.0 490.0 l s 
+0.25 0.35 0.45 RG 0.8 w 482.0 505.0 m 482.0 490.0 l s 
+0.25 0.35 0.45 RG 0.8 w 130.0 490.0 m 482.0 490.0 l s 
+0.25 0.35 0.45 RG 0.8 w 130.0 490.0 m 130.0 475.0 l s 
+0.25 0.35 0.45 rg 130.0 475.0 m 127.5 479.5 l 132.5 479.5 l f 
+0.25 0.35 0.45 RG 0.8 w 482.0 490.0 m 482.0 475.0 l s 
+0.25 0.35 0.45 rg 482.0 475.0 m 479.5 479.5 l 484.5 479.5 l f 
+0.20 0.25 0.30 rg BT /F1 6.0 Tf 246.0 494.0 Td (Cambios de estado y eventos de dominio) Tj ET 
+0.25 0.35 0.45 RG 0.8 w 130.0 435.0 m 130.0 405.0 l s 
+0.25 0.35 0.45 rg 130.0 405.0 m 127.5 409.5 l 132.5 409.5 l f 
+0.25 0.35 0.45 RG 0.8 w 130.0 365.0 m 130.0 335.0 l s 
+0.25 0.35 0.45 rg 130.0 335.0 m 127.5 339.5 l 132.5 339.5 l f 
+0.25 0.35 0.45 RG 0.8 w 482.0 435.0 m 482.0 405.0 l s 
+0.25 0.35 0.45 rg 482.0 405.0 m 479.5 409.5 l 484.5 409.5 l f 
+0.25 0.35 0.45 RG 0.8 w 482.0 365.0 m 482.0 335.0 l s 
+0.25 0.35 0.45 rg 482.0 335.0 m 479.5 339.5 l 484.5 339.5 l f 
+0.25 0.35 0.45 RG 0.8 w 482.0 295.0 m 482.0 265.0 l s 
+0.25 0.35 0.45 rg 482.0 265.0 m 479.5 269.5 l 484.5 269.5 l f 
+0.20 0.25 0.30 rg BT /F1 6.0 Tf 136.0 417.0 Td (Evento) Tj ET 
+0.20 0.25 0.30 rg BT /F1 6.0 Tf 136.0 347.0 Td (Correo / SMS) Tj ET 
+0.20 0.25 0.30 rg BT /F1 6.0 Tf 488.0 417.0 Td (REST / SOAP) Tj ET 
+0.20 0.25 0.30 rg BT /F1 6.0 Tf 488.0 347.0 Td (Edición) Tj ET 
+0.20 0.25 0.30 rg BT /F1 6.0 Tf 488.0 277.0 Td (Actualiza) Tj ET 
+0.10 0.50 0.25 rg 50.0 197.0 8.0 8.0 re f 
+0.25 0.28 0.32 rg BT /F1 6.8 Tf 62.0 198.5 Td (Servicios de dominio) Tj ET 
+0.20 0.40 0.65 rg 154.0 197.0 8.0 8.0 re f 
+0.25 0.28 0.32 rg BT /F1 6.8 Tf 166.0 198.5 Td (Mensajería) Tj ET 
+0.65 0.45 0.15 rg 258.0 197.0 8.0 8.0 re f 
+0.25 0.28 0.32 rg BT /F1 6.8 Tf 270.0 198.5 Td (Datos) Tj ET 
+0.40 0.20 0.65 rg 362.0 197.0 8.0 8.0 re f 
+0.25 0.28 0.32 rg BT /F1 6.8 Tf 374.0 198.5 Td (Integración \(ACL\)) Tj ET 
+0.65 0.20 0.20 rg 466.0 197.0 8.0 8.0 re f 
+0.25 0.28 0.32 rg BT /F1 6.8 Tf 478.0 198.5 Td (Legado / CORE) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 181.0 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 181.0 Td (Camino síncrono: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 131.6 181.0 Td (Front, API Gateway, Servicio de Pólizas o Riesgos y base de datos. La renovación automática entra directamente al Servicio) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 171.1 Td (de Pólizas.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 159.7 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 159.7 Td (Camino asíncrono: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 135.9 159.7 Td (los cambios confirmados generan eventos \(outbox, broker\) que consume Notificaciones para enviar correo o SMS.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 148.3 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 148.3 Td (Integración con el CORE: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 159.0 148.3 Td (toda modificación de estado pasa por el Adapter \(ACL\), la capa media WebLogic y el servicio agnóstico de edición,) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 138.4 Td (que actualiza el CORE.) Tj ET 
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 28 0 R /F2 29 0 R /F3 30 0 R /F4 31 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 13328 >>
+stream
+0.40 0.45 0.50 rg BT /F2 7.2 Tf 50.0 755.0 Td (SEGUROS BOLÍVAR  |  EVALUACIÓN TÉCNICA TI SÉNIOR  |  JUAN CARLOS VILLAR) Tj ET 
+0.80 0.84 0.88 RG 0.5 w 50.0 748.0 m 562.0 748.0 l s 
+0.80 0.84 0.88 RG 0.5 w 50.0 36.0 m 562.0 36.0 l s 
+0.45 0.50 0.55 rg BT /F1 7.0 Tf 50.0 24.0 Td (Documento Técnico de Solución - Confidencial para Evaluación de Talento) Tj ET 
+0.45 0.50 0.55 rg BT /F2 7.0 Tf 515.0 24.0 Td (Página 7 de 12) Tj ET 
+0.04 0.15 0.28 rg 50.0 724.0 512.0 22.0 re f 
+1.00 1.00 1.00 rg BT /F2 9.5 Tf 60.0 731.0 Td (MÓDULO 2 - PRUEBA TÉCNICA PRÁCTICA \(API DE GESTIÓN DE PÓLIZAS\)) Tj ET 
+0.00 0.49 0.20 rg 515.2 728.0 36.8 14.0 re f 
+1.00 1.00 1.00 rg BT /F2 7.0 Tf 520.2 732.0 Td (GITHUB) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 709.0 Td (2.1 Repositorio) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 696.0 Td (Conforme al enunciado, el código se entrega por enlace al repositorio de GitHub, sin adjuntar carpetas locales ni archivos de Drive.) Tj ET 
+0.96 0.97 0.98 rg 0.80 0.84 0.88 RG 0.7 w 50.0 657.5 512.0 26.2 re b 
+0.10 0.14 0.20 rg BT /F3 7.0 Tf 58.0 673.2 Td (Repositorio: https://github.com/Juankvillar/seguros-bolivar) Tj ET 
+0.10 0.14 0.20 rg BT /F3 7.0 Tf 58.0 664.6 Td (Rama main | Maven | Java 21 | Spring Boot 3.4.3 | README con ejecución, ejemplos curl y supuesto de IPC) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 643.5 Td (2.2 Estructura del proyecto y capas) Tj ET 
+0.96 0.97 0.98 rg 0.80 0.84 0.88 RG 0.7 w 50.0 561.3 512.0 69.2 re b 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 620.2 Td (com.segurosbolivar.policies) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 611.6 Td ( |- web         PolicyController, RiskController, CoreMockController, ApiKeyFilter) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 603.0 Td ( |- service     PolicyService, CoreGateway, CoreMockService) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 594.4 Td ( |- repository  PolicyRepository \(interfaz\), InMemoryPolicyRepository) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 585.8 Td ( |- domain      Policy, Risk, PolicyType, PolicyStatus, RiskStatus) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 577.2 Td ( |- dto         PolicyResponse, RiskResponse, AddRiskRequest, CoreEventRequest, CoreEventResponse, ErrorResponse) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 568.6 Td ( |- exception   BusinessRuleViolationException, ResourceNotFoundException, ApiExceptionHandler) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 550.3 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 550.3 Td (Entidades: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 105.5 550.3 Td (Policy y Risk \(Poliza y Riesgo\) encapsulan sus invariantes; la prima se calcula con BigDecimal \(escala 2, HALF_UP\).) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 538.9 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 538.9 Td (Capas: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 91.8 538.9 Td (controladores delgados, reglas en el servicio y el dominio, persistencia tras una interfaz \(PolicyRepository\).) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 527.5 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 527.5 Td (Validaciones y errores: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 150.9 527.5 Td (ApiExceptionHandler \(@RestControllerAdvice\) devuelve JSON homogéneo \(timestamp, status, error, message, path\):) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 517.6 Td (404 recurso inexistente, 409 regla de negocio violada, 400 solicitud inválida.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 506.2 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 506.2 Td (Seguridad mínima: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 135.5 506.2 Td (ApiKeyFilter exige x-api-key: 123456 en /polizas, /riesgos y /core-mock; sin ella responde 401.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 491.8 Td (2.3 Endpoints implementados) Tj ET 
+0.91 0.94 0.97 rg 0.76 0.81 0.86 RG 0.8 w 50.0 464.0 512.0 14.8 re b 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 54.0 469.9 Td (Método) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 92.0 464.0 m 92.0 478.8 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 96.0 469.9 Td (Endpoint) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 210.0 464.0 m 210.0 478.8 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 214.0 469.9 Td (Comportamiento) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 448.0 464.0 m 448.0 478.8 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 452.0 469.9 Td (Respuestas) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 440.4 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 455.1 Td (GET) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 92.0 440.4 m 92.0 464.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 96.0 455.1 Td (/polizas?tipo=&estado=) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 210.0 440.4 m 210.0 464.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 214.0 455.1 Td (Lista pólizas; filtra por tipo \(INDIVIDUAL/COLECTIVA\) y estado) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 214.0 446.2 Td (\(ACTIVA/RENOVADA/CANCELADA\), ambos opcionales.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 448.0 440.4 m 448.0 464.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 452.0 455.1 Td (200) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 425.6 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 431.4 Td (GET) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 92.0 425.6 m 92.0 440.4 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 96.0 431.4 Td (/polizas/{id}/riesgos) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 210.0 425.6 m 210.0 440.4 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 214.0 431.4 Td (Consulta los riesgos de la póliza.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 448.0 425.6 m 448.0 440.4 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 452.0 431.4 Td (200 / 404) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 402.0 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 416.6 Td (POST) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 92.0 402.0 m 92.0 425.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 96.0 416.6 Td (/polizas/{id}/renovar) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 210.0 402.0 m 210.0 425.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 214.0 416.6 Td (Incrementa canon y prima en +IPC y pasa el estado a RENOVADA. No) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 214.0 407.8 Td (renueva pólizas canceladas.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 448.0 402.0 m 448.0 425.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 452.0 416.6 Td (200 / 404 / 409) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 387.2 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 393.0 Td (POST) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 92.0 387.2 m 92.0 402.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 96.0 393.0 Td (/polizas/{id}/cancelar) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 210.0 387.2 m 210.0 402.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 214.0 393.0 Td (Cancela la póliza y todos sus riesgos.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 448.0 387.2 m 448.0 402.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 452.0 393.0 Td (200 / 404) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 372.4 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 378.2 Td (POST) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 92.0 372.4 m 92.0 387.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 96.0 378.2 Td (/polizas/{id}/riesgos) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 210.0 372.4 m 210.0 387.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 214.0 378.2 Td (Agrega un riesgo; solo si la póliza es COLECTIVA y no está cancelada.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 448.0 372.4 m 448.0 387.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 452.0 378.2 Td (201 / 404 / 409) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 357.6 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 363.4 Td (POST) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 92.0 357.6 m 92.0 372.4 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 96.0 363.4 Td (/riesgos/{id}/cancelar) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 210.0 357.6 m 210.0 372.4 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 214.0 363.4 Td (Cancela un riesgo puntual.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 448.0 357.6 m 448.0 372.4 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 452.0 363.4 Td (200 / 404) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 334.0 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 348.6 Td (POST) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 92.0 334.0 m 92.0 357.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 96.0 348.6 Td (/core-mock/evento) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 210.0 334.0 m 210.0 357.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 214.0 348.6 Td (Mock de CORE: registra en logs el intento de envío \(evento) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 214.0 339.8 Td (ACTUALIZACION, polizaId\).) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 448.0 334.0 m 448.0 357.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 452.0 348.6 Td (200 / 400) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 321.0 Td (Las operaciones que modifican estado \(renovar, cancelar póliza, agregar y cancelar riesgo\) invocan coreGateway.notifyPolicyUpdated, que en el) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 310.7 Td (ejercicio queda registrado en el log del mock de CORE.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 297.4 Td (2.4 Reglas de negocio: regla, implementación y prueba) Tj ET 
+0.91 0.94 0.97 rg 0.76 0.81 0.86 RG 0.8 w 50.0 269.6 512.0 14.8 re b 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 54.0 275.4 Td (Regla del enunciado) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 170.0 269.6 m 170.0 284.4 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 174.0 275.4 Td (Implementación) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 338.0 269.6 m 338.0 284.4 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 342.0 275.4 Td (Prueba que la verifica) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 246.0 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 260.6 Td (Individual con un solo riesgo) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 170.0 246.0 m 170.0 269.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 174.0 260.6 Td (Policy \(validación inicial\) y PolicyService.addRisk) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 174.0 251.8 Td (\(409 si no es colectiva\).) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 338.0 246.0 m 338.0 269.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 342.0 260.6 Td (enforcesTheSingleRiskInvariantForIndividualPolicies;) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 342.0 251.8 Td (rejectsAddingRiskToIndividualPolicy) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 222.4 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 237.0 Td (No renovar una póliza cancelada) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 170.0 222.4 m 170.0 246.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 174.0 237.0 Td (PolicyService.renew lanza) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 174.0 228.2 Td (BusinessRuleViolationException \(409\).) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 338.0 222.4 m 338.0 246.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 342.0 237.0 Td (rejectsRenewalOfCancelledPolicy \(servicio e integración\)) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 198.8 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 213.4 Td (Cancelar póliza cancela sus) Tj ET 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 204.6 Td (riesgos) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 170.0 198.8 m 170.0 222.4 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 174.0 213.4 Td (Policy.cancel cancela cada riesgo.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 338.0 198.8 m 338.0 222.4 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 342.0 213.4 Td (cancellingPolicyCancelsAllItsRisks;) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 342.0 204.6 Td (cancelsPolicyAndCancelsAllItsAssociatedRisks) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 184.0 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 189.8 Td (Agregar riesgo valida el tipo) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 170.0 184.0 m 170.0 198.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 174.0 189.8 Td (PolicyService.addRisk valida tipo y estado.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 338.0 184.0 m 338.0 198.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 342.0 189.8 Td (addsRiskToCollectivePolicy; rejectsAddingRiskToIndividualPolicy) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 151.6 512.0 32.4 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 175.0 Td (Renovar: +IPC, prima) Tj ET 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 166.2 Td (recalculada, estado RENOVADA) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 170.0 151.6 m 170.0 184.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 174.0 175.0 Td (Policy.renew con la tasa app.policy.ipc-rate \(5 %\).) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 338.0 151.6 m 338.0 184.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 342.0 175.0 Td (renewsPolicyUsingIpcAndRecalculatesPremium;) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 342.0 166.2 Td (renewsPolicySuccessfullyIncreasingRentAndPremium \(canon) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 342.0 157.4 Td (1.800.000 a 1.890.000; prima 22.680.000\)) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 136.8 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 142.6 Td (Header x-api-key obligatorio) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 170.0 136.8 m 170.0 151.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 174.0 142.6 Td (ApiKeyFilter.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 338.0 136.8 m 338.0 151.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 342.0 142.6 Td (rejectsRequestsWithoutApiKey) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 113.2 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 127.8 Td (Mock de CORE solo registra en) Tj ET 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 119.0 Td (logs) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 170.0 113.2 m 170.0 136.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 174.0 127.8 Td (CoreMockService.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 338.0 113.2 m 338.0 136.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 342.0 127.8 Td (registersCoreMockEventSuccessfully;) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 342.0 119.0 Td (acceptsOnlyTheExpectedCoreUpdateEvent) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 97.2 Td (2.5 Verificación y ejecución) Tj ET 
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 28 0 R /F2 29 0 R /F3 30 0 R /F4 31 0 R >> >> /Contents 19 0 R >>
+endobj
+19 0 obj
+<< /Length 5593 >>
+stream
+0.40 0.45 0.50 rg BT /F2 7.2 Tf 50.0 755.0 Td (SEGUROS BOLÍVAR  |  EVALUACIÓN TÉCNICA TI SÉNIOR  |  JUAN CARLOS VILLAR) Tj ET 
+0.80 0.84 0.88 RG 0.5 w 50.0 748.0 m 562.0 748.0 l s 
+0.80 0.84 0.88 RG 0.5 w 50.0 36.0 m 562.0 36.0 l s 
+0.45 0.50 0.55 rg BT /F1 7.0 Tf 50.0 24.0 Td (Documento Técnico de Solución - Confidencial para Evaluación de Talento) Tj ET 
+0.45 0.50 0.55 rg BT /F2 7.0 Tf 515.0 24.0 Td (Página 8 de 12) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 730.0 Td (Resultado obtenido al ejecutar mvn test sobre el repositorio \(reportes surefire\):) Tj ET 
+0.96 0.97 0.98 rg 0.80 0.84 0.88 RG 0.7 w 50.0 665.7 512.0 52.0 re b 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 707.4 Td ([INFO] Running com.segurosbolivar.policies.web.PolicyApiIntegrationTest) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 698.8 Td ([INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.466 s) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 690.2 Td ([INFO] Running com.segurosbolivar.policies.service.PolicyServiceTest) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 681.6 Td ([INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 673.0 Td ([INFO] Results: Tests run: 18, Failures: 0, Errors: 0, Skipped: 0) Tj ET 
+0.96 0.97 0.98 rg 0.80 0.84 0.88 RG 0.7 w 50.0 619.9 512.0 34.8 re b 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 644.4 Td (mvn test                      # 18 pruebas: 12 de integración \(MockMvc\) y 6 de servicio) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 635.8 Td (mvn spring-boot:run           # API en http://localhost:8080) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 627.2 Td (curl -H 'x-api-key: 123456' 'http://localhost:8080/polizas?tipo=COLECTIVA&estado=ACTIVA') Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 605.9 Td (2.6 Alcance del ejercicio y evolución a producción) Tj ET 
+0.91 0.94 0.97 rg 0.76 0.81 0.86 RG 0.8 w 50.0 578.1 512.0 14.8 re b 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 54.0 584.0 Td (Tema) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 128.0 578.1 m 128.0 592.9 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 132.0 584.0 Td (En el ejercicio) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 324.0 578.1 m 324.0 592.9 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 328.0 584.0 Td (En producción) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 554.5 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 569.2 Td (Persistencia) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 128.0 554.5 m 128.0 578.1 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 132.0 569.2 Td (En memoria \(ConcurrentHashMap\), detrás de la interfaz) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 132.0 560.4 Td (PolicyRepository.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 324.0 554.5 m 324.0 578.1 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 328.0 569.2 Td (JPA con PostgreSQL u Oracle, control optimista por version y) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 328.0 560.4 Td (migraciones versionadas.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 539.7 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 545.6 Td (Concurrencia) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 128.0 539.7 m 128.0 554.5 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 132.0 545.6 Td (Métodos de servicio sincronizados.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 324.0 539.7 m 324.0 554.5 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 328.0 545.6 Td (Transacciones y bloqueo optimista; sin bloqueo global.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 524.9 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 530.8 Td (IPC) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 128.0 524.9 m 128.0 539.7 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 132.0 530.8 Td (Tasa fija configurable \(5 %\) en application.yml.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 324.0 524.9 m 324.0 539.7 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 328.0 530.8 Td (Tabla ParametroIPC alimentada desde la fuente oficial y auditada.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 501.3 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 516.0 Td (Integración CORE) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 128.0 501.3 m 128.0 524.9 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 132.0 516.0 Td (CoreGateway y mock que solo registra en logs, como pide) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 132.0 507.2 Td (el enunciado.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 324.0 501.3 m 324.0 524.9 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 328.0 516.0 Td (Adapter hacia WebLogic con idempotencia, timeouts, reintentos, circuit) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 328.0 507.2 Td (breaker y outbox.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 486.5 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 492.4 Td (Seguridad) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 128.0 486.5 m 128.0 501.3 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 132.0 492.4 Td (API key estática exigida por el enunciado.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 324.0 486.5 m 324.0 501.3 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 328.0 492.4 Td (OAuth2/JWT en el Gateway, secretos fuera del código y rate limiting.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 471.7 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 477.6 Td (Observabilidad) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 128.0 471.7 m 128.0 486.5 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 132.0 477.6 Td (Logs de aplicación.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 324.0 471.7 m 324.0 486.5 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 328.0 477.6 Td (Logs JSON con traceId, métricas y trazas distribuidas.) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 458.7 Td (El módulo práctico implementa lo esencial que pide el enunciado; la creación y modificación de pólizas por API se contempla en el diseño del) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 448.4 Td (Módulo 1.) Tj ET 
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 28 0 R /F2 29 0 R /F3 30 0 R /F4 31 0 R >> >> /Contents 21 0 R >>
+endobj
+21 0 obj
+<< /Length 9620 >>
+stream
+0.40 0.45 0.50 rg BT /F2 7.2 Tf 50.0 755.0 Td (SEGUROS BOLÍVAR  |  EVALUACIÓN TÉCNICA TI SÉNIOR  |  JUAN CARLOS VILLAR) Tj ET 
+0.80 0.84 0.88 RG 0.5 w 50.0 748.0 m 562.0 748.0 l s 
+0.80 0.84 0.88 RG 0.5 w 50.0 36.0 m 562.0 36.0 l s 
+0.45 0.50 0.55 rg BT /F1 7.0 Tf 50.0 24.0 Td (Documento Técnico de Solución - Confidencial para Evaluación de Talento) Tj ET 
+0.45 0.50 0.55 rg BT /F2 7.0 Tf 515.0 24.0 Td (Página 9 de 12) Tj ET 
+0.04 0.15 0.28 rg 50.0 724.0 512.0 22.0 re f 
+1.00 1.00 1.00 rg BT /F2 9.5 Tf 60.0 731.0 Td (MÓDULO 3 - CONOCIMIENTOS EN BBDD: OPTIMIZACIÓN DE SQL) Tj ET 
+0.00 0.49 0.20 rg 527.6 728.0 24.4 14.0 re f 
+1.00 1.00 1.00 rg BT /F2 7.0 Tf 532.6 732.0 Td (SQL) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 709.0 Td (3.1 Contexto y supuestos) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 696.0 Td (Consulta frecuente y lenta: JOIN entre orders \(10 millones de registros\) y customers \(500 mil\) filtrando clientes de México. Se asume un motor) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 685.7 Td (relacional \(se citan equivalentes Oracle\), customers.customer_id como clave primaria y orders.customer_id como clave foránea. Antes de crear) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 675.4 Td (un índice se verifica con el plan de ejecución cuáles existen. El objetivo es reducir filas y lecturas antes de acceder a orders, la tabla de mayor) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 665.1 Td (volumen.) Tj ET 
+0.96 0.97 0.98 rg 0.80 0.84 0.88 RG 0.7 w 50.0 618.0 512.0 34.8 re b 
+0.10 0.14 0.20 rg BT /F3 7.0 Tf 58.0 642.4 Td (SELECT o.order_id, o.order_date, c.customer_name, o.total_amount) Tj ET 
+0.10 0.14 0.20 rg BT /F3 7.0 Tf 58.0 633.8 Td (FROM orders o JOIN customers c ON o.customer_id = c.customer_id) Tj ET 
+0.10 0.14 0.20 rg BT /F3 7.0 Tf 58.0 625.2 Td (WHERE c.country = 'México';) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 604.0 Td (3.2 Estrategias de optimización) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 591.0 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 591.0 Td (Estrategia 1 - Índices alineados con el filtro y el JOIN. ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 266.8 591.0 Td (Un índice compuesto en customers\(country, customer_id\) localiza los clientes de) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 581.1 Td (México sin recorrer 500 mil filas, y un índice en orders\(customer_id\) permite acceder a sus pedidos sin recorrer 10 millones \(NESTED) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 571.2 Td (LOOPS\). Es favorable cuando México es una fracción pequeña de los clientes; si es una proporción alta, un HASH JOIN con lectura) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 561.3 Td (secuencial puede costar menos, por eso se mide. Costo: almacenamiento y escritura más lenta.) Tj ET 
+0.96 0.97 0.98 rg 0.80 0.84 0.88 RG 0.7 w 50.0 523.7 512.0 26.2 re b 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 539.6 Td (CREATE INDEX ix_customers_country_custid ON customers \(country, customer_id\);) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 531.0 Td (CREATE INDEX ix_orders_customer_id ON orders \(customer_id\);) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 512.7 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 512.7 Td (Estrategia 2 - Índice de cobertura en orders. ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 232.2 512.7 Td (Si la consulta es muy frecuente, un índice que incluya las columnas leídas permite resolverla) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 502.8 Td (solo desde el índice, sin acceder a la tabla. Es un índice más ancho: aumenta el costo de INSERT/UPDATE, por lo que se justifica con la) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 492.9 Td (frecuencia de uso. En PostgreSQL se expresa con INCLUDE.) Tj ET 
+0.96 0.97 0.98 rg 0.80 0.84 0.88 RG 0.7 w 50.0 463.9 512.0 17.6 re b 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 471.2 Td (CREATE INDEX ix_orders_cust_cover ON orders \(customer_id, order_id, order_date, total_amount\);) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 452.9 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 452.9 Td (Estrategia 3 - Estadísticas actualizadas y lectura del plan. ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 281.8 452.9 Td (Si la distribución de country es desigual, un histograma permite al optimizador) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 443.0 Td (estimar cuántos clientes devuelve el filtro y elegir bien el tipo de JOIN. Se compara filas estimadas contra reales en el plan; no se fuerza el) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 433.1 Td (plan con hints antes de comprobar un problema de cardinalidad.) Tj ET 
+0.96 0.97 0.98 rg 0.80 0.84 0.88 RG 0.7 w 50.0 378.3 512.0 43.4 re b 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 411.4 Td (EXEC DBMS_STATS.GATHER_TABLE_STATS\(USER, 'CUSTOMERS', cascade => TRUE,) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 402.8 Td (     method_opt => 'FOR COLUMNS SIZE 254 COUNTRY'\);) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 394.2 Td (-- ejecutar la consulta con /*+ GATHER_PLAN_STATISTICS */ y luego:) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 385.6 Td (SELECT * FROM TABLE\(DBMS_XPLAN.DISPLAY_CURSOR\(NULL, NULL, 'ALLSTATS LAST'\)\);) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 367.3 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 367.3 Td (Estrategia 4 - Modelo de lectura materializado. ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 240.7 367.3 Td (Si la consulta se repite y se tolera un refresco controlado, una vista materializada precombina) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 357.4 Td (pedidos y clientes y evita repetir el JOIN. El costo es almacenamiento, trabajo de refresco y posible desactualización. REFRESH FAST ON) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 347.5 Td (COMMIT exige logs de vista materializada y ROWID en el SELECT; con refresco programado se usa COMPLETE ON DEMAND. Antes se) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 337.6 Td (confirma si el país debe ser el actual del cliente o el del momento del pedido.) Tj ET 
+0.96 0.97 0.98 rg 0.80 0.84 0.88 RG 0.7 w 50.0 282.8 512.0 43.4 re b 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 315.9 Td (CREATE MATERIALIZED VIEW mv_orders_mexico BUILD IMMEDIATE REFRESH COMPLETE ON DEMAND AS) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 307.3 Td (SELECT o.order_id, o.order_date, o.customer_id, c.customer_name, o.total_amount) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 298.7 Td (FROM orders o JOIN customers c ON o.customer_id = c.customer_id) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 290.1 Td (WHERE c.country = 'México';) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 271.8 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 271.8 Td (Estrategia 5 - Limitar lo que se transporta. ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 225.3 271.8 Td (En consumo interactivo no se devuelven todos los pedidos de México: se seleccionan solo las) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 261.9 Td (columnas necesarias y se pagina por clave \(keyset\) con orden determinista, en lugar de OFFSET alto. No sustituye los índices ni aplica a) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 252.0 Td (exportaciones completas, pero reduce red, memoria y serialización.) Tj ET 
+0.96 0.97 0.98 rg 0.80 0.84 0.88 RG 0.7 w 50.0 214.4 512.0 26.2 re b 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 230.3 Td (... WHERE c.country = 'México' AND o.order_id > :ultimo_id) Tj ET 
+0.10 0.14 0.20 rg BT /F3 6.8 Tf 58.0 221.7 Td (ORDER BY o.order_id FETCH FIRST 50 ROWS ONLY;) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 200.4 Td (3.3 Lo que no haría sin evidencia) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 187.4 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 187.4 Td (Particionar orders por fecha como solución principal: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 262.5 187.4 Td (la consulta no filtra por fecha, así que no habría eliminación de particiones; es útil para) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 177.5 Td (retención y otros patrones de consulta.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 166.1 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 166.1 Td (Forzar el plan con hints: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 155.1 166.1 Td (pueden degradar la consulta cuando cambien el volumen o la distribución de los datos.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 154.7 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 154.7 Td (Texto libre en el filtro: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 146.6 154.7 Td (comparar 'México' como cadena es frágil \(acentos, mayúsculas\); un código estable \(country_code = 'MX'\) o una tabla) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 144.8 Td (countries con clave foránea reduce errores y el tamaño del índice.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 133.4 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 133.4 Td (PL/SQL: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 96.5 133.4 Td (encapsular la consulta o usar variables bind reduce hard parses, pero no acelera el JOIN: la mejora viene del plan, las estadísticas,) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 123.5 Td (los índices y el modelo físico.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 109.1 Td (3.4 Validación) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 96.1 Td (Se toma una línea base en un ambiente con volumen y distribución similares a producción y se repite con los mismos parámetros después de) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 85.8 Td (cada cambio, uno a la vez. Se miden: tiempo de respuesta, CPU, lecturas lógicas y físicas, uso de espacio temporal, tipo de JOIN y filas) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 75.5 Td (estimadas frente a reales. También se mide el impacto de cada índice o refresco sobre las escrituras, y se descarta lo que no aporte.) Tj ET 
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 28 0 R /F2 29 0 R /F3 30 0 R /F4 31 0 R >> >> /Contents 23 0 R >>
+endobj
+23 0 obj
+<< /Length 10294 >>
+stream
+0.40 0.45 0.50 rg BT /F2 7.2 Tf 50.0 755.0 Td (SEGUROS BOLÍVAR  |  EVALUACIÓN TÉCNICA TI SÉNIOR  |  JUAN CARLOS VILLAR) Tj ET 
+0.80 0.84 0.88 RG 0.5 w 50.0 748.0 m 562.0 748.0 l s 
+0.80 0.84 0.88 RG 0.5 w 50.0 36.0 m 562.0 36.0 l s 
+0.45 0.50 0.55 rg BT /F1 7.0 Tf 50.0 24.0 Td (Documento Técnico de Solución - Confidencial para Evaluación de Talento) Tj ET 
+0.45 0.50 0.55 rg BT /F2 7.0 Tf 515.0 24.0 Td (Página 10 de 12) Tj ET 
+0.04 0.15 0.28 rg 50.0 724.0 512.0 22.0 re f 
+1.00 1.00 1.00 rg BT /F2 9.5 Tf 60.0 731.0 Td (MÓDULO 4 - CONOCIMIENTOS EN GIT: INCORPORAR UN CAMBIO PUNTUAL) Tj ET 
+0.00 0.49 0.20 rg 530.3 728.0 21.7 14.0 re f 
+1.00 1.00 1.00 rg BT /F2 7.0 Tf 535.3 732.0 Td (GIT) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 709.0 Td (4.1 Escenario) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 696.0 Td (Trabajo en feature/new-login. Un compañero fusionó en main un cambio crítico que corrige un bug de seguridad. Necesito incorporar ese cambio) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 685.7 Td (específico en mi rama, urgentemente, sin traer el resto de las actualizaciones de main.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 672.4 Td (4.2 Estrategia elegida: git cherry-pick -x) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 659.4 Td (git cherry-pick aplica el diff de un commit puntual sobre la rama actual y crea un commit nuevo. No incorpora la historia ni los cambios no) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 649.1 Td (relacionados de main, que es exactamente lo que se pide. La opción -x agrega al mensaje la línea \(cherry picked from commit ...\), lo que deja) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 638.8 Td (trazabilidad: en una revisión o auditoría se identifica de qué corrección de main proviene el cambio.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 625.5 Td (4.3 Procedimiento y justificación) Tj ET 
+0.91 0.94 0.97 rg 0.76 0.81 0.86 RG 0.8 w 50.0 597.7 512.0 14.8 re b 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 54.0 603.6 Td (Paso) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 84.0 597.7 m 84.0 612.5 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 88.0 603.6 Td (Comando) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 292.0 597.7 m 292.0 612.5 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 296.0 603.6 Td (Justificación) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 582.9 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 588.8 Td (1) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 84.0 582.9 m 84.0 597.7 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 88.0 588.8 Td (git status  \(git stash push -u si hay trabajo sin confirmar\)) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 292.0 582.9 m 292.0 597.7 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 296.0 588.8 Td (Árbol limpio: evita mezclar el trabajo en curso con el cherry-pick.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 568.1 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 574.0 Td (2) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 84.0 568.1 m 84.0 582.9 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 88.0 574.0 Td (git fetch origin) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 292.0 568.1 m 292.0 582.9 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 296.0 574.0 Td (Actualiza las referencias remotas para ver el commit ya fusionado en main.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 544.5 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 559.2 Td (3) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 84.0 544.5 m 84.0 568.1 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 88.0 559.2 Td (git log --oneline --first-parent origin/main -n 15 ; git show --stat) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 88.0 550.4 Td (<sha>) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 292.0 544.5 m 292.0 568.1 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 296.0 559.2 Td (Ubica el commit exacto de la corrección y verifica su contenido, no solo el título.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 529.7 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 535.6 Td (4) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 84.0 529.7 m 84.0 544.5 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 88.0 535.6 Td (git switch feature/new-login) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 292.0 529.7 m 292.0 544.5 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 296.0 535.6 Td (Se posiciona en la rama que necesita el cambio.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 514.9 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 520.8 Td (5) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 84.0 514.9 m 84.0 529.7 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 88.0 520.8 Td (git cherry-pick -x <sha>) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 292.0 514.9 m 292.0 529.7 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 296.0 520.8 Td (Aplica solo ese cambio, con referencia al commit original.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 491.3 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 506.0 Td (6) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 84.0 491.3 m 84.0 514.9 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 88.0 506.0 Td (En conflicto: git status ; resolver ; git add <archivos> ; git) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 88.0 497.2 Td (cherry-pick --continue) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 292.0 491.3 m 292.0 514.9 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 296.0 506.0 Td (Se resuelve conservando el comportamiento seguro y compatible con el login. Si no) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 296.0 497.2 Td (se puede adaptar con seguridad: git cherry-pick --abort.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 467.7 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 482.4 Td (7) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 84.0 467.7 m 84.0 491.3 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 88.0 482.4 Td (git show --stat HEAD ; mvn test) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 292.0 467.7 m 292.0 491.3 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 296.0 482.4 Td (Valida el resultado y ejecuta las pruebas, más las verificaciones de seguridad) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 296.0 473.6 Td (aplicables, antes de publicar.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 444.1 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 458.8 Td (8) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 84.0 444.1 m 84.0 467.7 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 88.0 458.8 Td (git push origin feature/new-login) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 292.0 444.1 m 292.0 467.7 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 296.0 458.8 Td (Publica el cambio; con ramas protegidas se abre una solicitud de cambio para) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 296.0 450.0 Td (revisión.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 428.1 Td (4.4 Variantes según cómo se fusionó el cambio en main) Tj ET 
+0.91 0.94 0.97 rg 0.76 0.81 0.86 RG 0.8 w 50.0 400.3 512.0 14.8 re b 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 54.0 406.2 Td (Caso) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 200.0 400.3 m 200.0 415.1 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 204.0 406.2 Td (Qué se hace) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 385.5 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 391.4 Td (Squash merge o commit único) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 200.0 385.5 m 200.0 400.3 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 204.0 391.4 Td (git cherry-pick -x <sha> del commit resultante en main.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 370.7 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 376.6 Td (Varios commits \(rebase o fast-forward\)) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 200.0 370.7 m 200.0 385.5 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 204.0 376.6 Td (git cherry-pick -x <sha-primero>^..<sha-ultimo> aplica el rango en orden, o se listan los sha uno por uno.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 347.1 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 361.8 Td (Merge commit \(--no-ff\)) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 200.0 347.1 m 200.0 370.7 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 204.0 361.8 Td (Se prefieren los commits individuales de la rama fusionada. Si solo existe el merge commit: git cherry-pick -x -m 1) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 204.0 353.0 Td (<sha-merge>, donde -m 1 toma main como padre de referencia; se revisa antes con git show.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 323.5 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 338.2 Td (Después, al integrar feature/new-login en) Tj ET 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 329.4 Td (main) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 200.0 323.5 m 200.0 347.1 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 204.0 338.2 Td (El cambio ya existe con el mismo diff; Git suele reconciliarlo sin duplicarlo ni generar conflicto. Se revisa en el pull) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 204.0 329.4 Td (request.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 307.5 Td (4.5 Alternativas descartadas) Tj ET 
+0.91 0.94 0.97 rg 0.76 0.81 0.86 RG 0.8 w 50.0 279.7 512.0 14.8 re b 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 54.0 285.6 Td (Alternativa) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 200.0 279.7 m 200.0 294.5 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 204.0 285.6 Td (Motivo) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 264.9 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 270.8 Td (git merge origin/main) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 200.0 264.9 m 200.0 279.7 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 204.0 270.8 Td (Incorpora todos los commits acumulados en main; contradice la necesidad de traer solo la corrección.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 241.3 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 256.0 Td (git rebase origin/main) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 200.0 241.3 m 200.0 264.9 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 204.0 256.0 Td (Reescribe la rama sobre todo main y también incorpora todo; además reescribe la historia, riesgoso si la rama es) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 204.0 247.2 Td (compartida.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 226.5 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 232.4 Td (git checkout origin/main -- <archivo>) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 200.0 226.5 m 200.0 241.3 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 204.0 232.4 Td (Trae el archivo completo de main \(con otros cambios\), no el diff del commit; sin referencia al commit original.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 211.7 512.0 14.8 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 217.6 Td (Copiar archivos manualmente) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 200.0 211.7 m 200.0 226.5 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 204.0 217.6 Td (Pierde trazabilidad, puede omitir parte de la corrección y dificulta auditar qué cambio se validó.) Tj ET 
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 28 0 R /F2 29 0 R /F3 30 0 R /F4 31 0 R >> >> /Contents 25 0 R >>
+endobj
+25 0 obj
+<< /Length 14193 >>
+stream
+0.40 0.45 0.50 rg BT /F2 7.2 Tf 50.0 755.0 Td (SEGUROS BOLÍVAR  |  EVALUACIÓN TÉCNICA TI SÉNIOR  |  JUAN CARLOS VILLAR) Tj ET 
+0.80 0.84 0.88 RG 0.5 w 50.0 748.0 m 562.0 748.0 l s 
+0.80 0.84 0.88 RG 0.5 w 50.0 36.0 m 562.0 36.0 l s 
+0.45 0.50 0.55 rg BT /F1 7.0 Tf 50.0 24.0 Td (Documento Técnico de Solución - Confidencial para Evaluación de Talento) Tj ET 
+0.45 0.50 0.55 rg BT /F2 7.0 Tf 515.0 24.0 Td (Página 11 de 12) Tj ET 
+0.04 0.15 0.28 rg 50.0 724.0 512.0 22.0 re f 
+1.00 1.00 1.00 rg BT /F2 9.5 Tf 60.0 731.0 Td (MÓDULO 5 - LIDERAZGO TÉCNICO Y GESTIÓN) Tj ET 
+0.00 0.49 0.20 rg 500.8 728.0 51.2 14.0 re f 
+1.00 1.00 1.00 rg BT /F2 7.0 Tf 505.8 732.0 Td (LIDERAZGO) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 709.0 Td (Contexto y enfoque) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 696.0 Td (Equipo de 8 desarrolladores con 40 % de deuda técnica en servicios clave, 10 incidentes críticos en el último mes, presión para entregar una) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 685.7 Td (funcionalidad en 3 semanas, falta de estándares con code review irregular y dos desarrolladores junior con brechas técnicas importantes. El) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 675.4 Td (objetivo no es eliminar el 40 % de deuda en dos semanas: es estabilizar el servicio, reducir el riesgo de una nueva interrupción y acordar un) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 665.1 Td (alcance de entrega verificable y sostenible.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 651.8 Td (Pregunta 1 - ¿Cuáles serían tus 5 prioridades en las primeras 2 semanas?) Tj ET 
+0.91 0.94 0.97 rg 0.76 0.81 0.86 RG 0.8 w 50.0 624.0 512.0 14.8 re b 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 54.0 629.9 Td (Prioridad) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 150.0 624.0 m 150.0 638.8 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 154.0 629.9 Td (Acciones) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 436.0 624.0 m 436.0 638.8 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 440.0 629.9 Td (Resultado esperado) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 591.6 512.0 32.4 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 615.1 Td (1. Estabilizar los servicios) Tj ET 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 606.3 Td (críticos) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 150.0 591.6 m 150.0 624.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 154.0 615.1 Td (Clasificar los 10 incidentes por impacto, causa raíz y recurrencia; definir guardia,) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 154.0 606.3 Td (escalamiento, runbooks y reversión; análisis post-incidente sin culpas; corregir primero lo) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 154.0 597.5 Td (que afecte disponibilidad, seguridad o integridad de datos.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 436.0 591.6 m 436.0 624.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 440.0 615.1 Td (Menor recurrencia y tiempos de) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 440.0 606.3 Td (restauración conocidos.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 559.2 512.0 32.4 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 582.7 Td (2. Acordar un MVP seguro) Tj ET 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 573.9 Td (con negocio) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 150.0 559.2 m 150.0 591.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 154.0 582.7 Td (Dividir la funcionalidad en cortes verticales priorizados y explicitar qué cabe en 3) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 154.0 573.9 Td (semanas con controles de calidad. Lo no esencial se programa después, no se absorbe) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 154.0 565.1 Td (como trabajo no planificado.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 436.0 559.2 m 436.0 591.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 440.0 582.7 Td (Alcance verificable y fecha creíble.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 526.8 512.0 32.4 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 550.3 Td (3. Atacar la deuda de alto) Tj ET 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 541.5 Td (riesgo) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 150.0 526.8 m 150.0 559.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 154.0 550.3 Td (Reservar capacidad \(30 a 35 %\) para la deuda ligada a los incidentes: dependencias) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 154.0 541.5 Td (obsoletas, falta de pruebas en rutas críticas y observabilidad insuficiente. Se prioriza por) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 154.0 532.7 Td (riesgo e impacto, no por antigüedad.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 436.0 526.8 m 436.0 559.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 440.0 550.3 Td (Causas raíz mitigadas.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 503.2 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 517.9 Td (4. Instalar controles) Tj ET 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 509.1 Td (mínimos) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 150.0 503.2 m 150.0 526.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 154.0 517.9 Td (Desde la primera semana: línea base de pruebas, code review obligatorio, integración) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 154.0 509.1 Td (continua, despliegue reversible, monitoreo y definición de terminado.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 436.0 503.2 m 436.0 526.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 440.0 517.9 Td (Calidad incorporada al flujo, no al) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 440.0 509.1 Td (final.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 470.8 512.0 32.4 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 494.3 Td (5. Aclarar propiedad y) Tj ET 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 485.5 Td (fortalecer al equipo) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 150.0 470.8 m 150.0 503.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 154.0 494.3 Td (Responsable técnico por servicio, decisiones clave documentadas \(registros breves de) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 154.0 485.5 Td (decisión\) y pair programming de los dos junior con quienes conocen los componentes) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 154.0 476.7 Td (críticos.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 436.0 470.8 m 436.0 503.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 440.0 494.3 Td (Menos conocimiento concentrado.) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 457.8 Td (Secuencia: semana 1 para triage, controles mínimos y acuerdo del MVP; semana 2 para las primeras correcciones de causa raíz, la primera) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 447.5 Td (demostración al negocio y la línea base de métricas.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 434.2 Td (Pregunta 2 - ¿Cómo organizarías al equipo para mejorar velocidad y calidad?) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 421.2 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 421.2 Td (Dos células temporales coordinadas, no aisladas: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 248.9 421.2 Td (Entrega \(4 personas, enfocada en el MVP en cortes verticales con pruebas, observabilidad) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 411.3 Td (básica y ruta de reversión\) y Confiabilidad \(4 personas, enfocada en estabilizar los servicios de mayor impacto, eliminar causas recurrentes y) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 401.4 Td (preparar los controles de despliegue\).) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 390.0 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 390.0 Td (Coordinación: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 118.3 390.0 Td (misma definición de terminado, tablero de riesgos compartido y sincronización diaria breve. Si aparece un incidente crítico, la) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 380.1 Td (capacidad se reasigna de forma explícita con negocio, en lugar de absorberlo con horas extra sostenidas.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 368.7 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 368.7 Td (Code review: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 114.1 368.7 Td (por rotación, con al menos una persona conocedora del dominio en cambios sensibles.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 357.3 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 357.3 Td (Perfiles junior: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 120.1 357.3 Td (tareas acotadas, pair programming y revisiones guiadas; se entrega valor mientras se reduce el riesgo de conocimiento) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 347.4 Td (concentrado. Los integrantes rotan entre células cada sprint.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 333.0 Td (Pregunta 3 - ¿Qué métricas implementarías para evaluar el desempeño del área?) Tj ET 
+0.91 0.94 0.97 rg 0.76 0.81 0.86 RG 0.8 w 50.0 305.2 512.0 14.8 re b 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 54.0 311.1 Td (Dimensión) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 146.0 305.2 m 146.0 320.0 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 150.0 311.1 Td (Métricas) Tj ET 
+0.76 0.81 0.86 RG 0.5 w 378.0 305.2 m 378.0 320.0 l s 
+0.05 0.12 0.22 rg BT /F2 7.0 Tf 382.0 311.1 Td (Para qué sirven) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 281.6 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 296.3 Td (Confiabilidad) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 146.0 281.6 m 146.0 305.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 150.0 296.3 Td (Incidentes P1/P2, tiempo medio de restauración \(MTTR\), recurrencia y) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 150.0 287.5 Td (cumplimiento de SLO y alertas.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 378.0 281.6 m 378.0 305.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 382.0 296.3 Td (Confirmar que la estabilización reduce el impacto real,) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 382.0 287.5 Td (no solo tickets cerrados.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 258.0 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 272.7 Td (Flujo de entrega) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 146.0 258.0 m 146.0 281.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 150.0 272.7 Td (Lead time, cycle time, throughput, trabajo en curso \(WIP\) e historias) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 150.0 263.9 Td (terminadas frente al alcance acordado.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 378.0 258.0 m 378.0 281.6 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 382.0 272.7 Td (Detectar cuellos de botella y prever con honestidad el) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 382.0 263.9 Td (cumplimiento del MVP.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 234.4 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 249.1 Td (Calidad y seguridad) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 146.0 234.4 m 146.0 258.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 150.0 249.1 Td (Cobertura de rutas críticas, defectos escapados, fallos de CI y) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 150.0 240.3 Td (hallazgos de seguridad abiertos.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 378.0 234.4 m 378.0 258.0 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 382.0 249.1 Td (Evitar que la velocidad se obtenga trasladando riesgo a) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 382.0 240.3 Td (producción.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 210.8 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 225.5 Td (Salud operativa) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 146.0 210.8 m 146.0 234.4 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 150.0 225.5 Td (Frecuencia de despliegue, tasa de cambios fallidos y de reversión,) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 150.0 216.7 Td (latencia y errores de servicios críticos \(métricas DORA\).) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 378.0 210.8 m 378.0 234.4 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 382.0 225.5 Td (Verificar que el sistema se mantiene sano durante la) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 382.0 216.7 Td (entrega.) Tj ET 
+1.00 1.00 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 187.2 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 201.9 Td (Deuda técnica) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 146.0 187.2 m 146.0 210.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 150.0 201.9 Td (Elementos de alto riesgo resueltos o mitigados, antigüedad y tendencia) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 150.0 193.1 Td (del backlog.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 378.0 187.2 m 378.0 210.8 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 382.0 201.9 Td (Mantener visible el riesgo que no se resuelve en este) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 382.0 193.1 Td (ciclo.) Tj ET 
+0.98 0.99 1.00 rg 0.82 0.86 0.90 RG 0.5 w 50.0 163.6 512.0 23.6 re b 
+0.05 0.10 0.18 rg BT /F2 7.0 Tf 54.0 178.3 Td (Equipo) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 146.0 163.6 m 146.0 187.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 150.0 178.3 Td (Tiempo de espera de revisiones de PR, carga de guardia y avance de) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 150.0 169.5 Td (los perfiles junior.) Tj ET 
+0.84 0.88 0.91 RG 0.5 w 378.0 163.6 m 378.0 187.2 l s 
+0.18 0.20 0.24 rg BT /F1 7.0 Tf 382.0 178.3 Td (Cuidar la sostenibilidad y el aprendizaje.) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 150.6 Td (Primero se mide la línea base y luego se fijan metas con el equipo \(por ejemplo, reducir MTTR y llevar los incidentes P1 a cero\). Las métricas se) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 140.3 Td (leen por tendencia y contexto; no se usan para evaluar personas ni sustituyen el análisis de incidentes.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 127.0 Td (Pregunta 4 - ¿Qué prácticas técnicas establecerías como obligatorias?) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 114.0 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 114.0 Td (Control de cambios: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 140.6 114.0 Td (ramas protegidas, solicitudes de cambio pequeñas con revisión obligatoria \(una aprobación; dos en cambios críticos\) y) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 104.1 Td (estándares de código con linters.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 92.7 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 92.7 Td (Integración continua: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 144.4 92.7 Td (compilación, pruebas automatizadas, análisis estático y escaneo de dependencias y secretos antes de integrar.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 81.3 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 81.3 Td (Pruebas: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 99.1 81.3 Td (automatización priorizada en las rutas críticas, con pruebas unitarias, de integración y de contrato.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 69.9 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 69.9 Td (Definición de terminado: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 156.4 69.9 Td (pruebas, documentación operativa mínima, monitoreo, registro de cambios y plan de reversión cuando aplique.) Tj ET 
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 28 0 R /F2 29 0 R /F3 30 0 R /F4 31 0 R >> >> /Contents 27 0 R >>
+endobj
+27 0 obj
+<< /Length 3882 >>
+stream
+0.40 0.45 0.50 rg BT /F2 7.2 Tf 50.0 755.0 Td (SEGUROS BOLÍVAR  |  EVALUACIÓN TÉCNICA TI SÉNIOR  |  JUAN CARLOS VILLAR) Tj ET 
+0.80 0.84 0.88 RG 0.5 w 50.0 748.0 m 562.0 748.0 l s 
+0.80 0.84 0.88 RG 0.5 w 50.0 36.0 m 562.0 36.0 l s 
+0.45 0.50 0.55 rg BT /F1 7.0 Tf 50.0 24.0 Td (Documento Técnico de Solución - Confidencial para Evaluación de Talento) Tj ET 
+0.45 0.50 0.55 rg BT /F2 7.0 Tf 515.0 24.0 Td (Página 12 de 12) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 730.0 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 730.0 Td (Despliegue seguro: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 137.6 730.0 Td (liberaciones graduales con interruptores de funcionalidad \(feature flags\) y reversión probada.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 718.6 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 718.6 Td (Observabilidad: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 124.3 718.6 Td (logs estructurados, métricas, trazabilidad, tableros y alertas accionables en los servicios críticos.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 707.2 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 707.2 Td (Gestión de incidentes: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 148.7 707.2 Td (niveles de severidad, responsable, comunicación, procedimiento de reversión y análisis posterior sin culpas con) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 697.3 Td (acciones verificables.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 685.9 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 685.9 Td (Decisiones: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 109.4 685.9 Td (registro breve de decisiones de arquitectura y priorización visible de la deuda técnica.) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 674.5 Td (En una corrección de emergencia se puede acortar el flujo, pero no eliminar los controles esenciales: debe haber responsable, evidencia de) Tj ET 
+0.18 0.20 0.24 rg BT /F1 7.9 Tf 50.0 664.2 Td (validación, trazabilidad y una revisión posterior.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 9.5 Tf 50.0 650.9 Td (Pregunta 5 - ¿Cómo gestionarías la presión del negocio sin comprometer la calidad?) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 637.9 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 637.9 Td (Datos y alternativas, no un "no" genérico: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 219.8 637.9 Td (se presentan opciones \(un MVP que cabe en 3 semanas frente al alcance completo con su fecha y) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 628.0 Td (riesgo\), el costo de los 10 incidentes y qué se pospone para proteger disponibilidad y seguridad.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 616.6 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 616.6 Td (Hitos semanales demostrables: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 181.7 616.6 Td (una demostración por semana y un tablero de riesgos compartido con producto para sostener la confianza.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 605.2 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 605.2 Td (Regla acordada de antemano: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 175.7 605.2 Td (un incidente crítico o una dependencia nueva relevante obliga a revisar alcance, capacidad o fecha.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 593.8 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 593.8 Td (Exposición controlada: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 151.3 593.8 Td (liberaciones graduales e interruptores de funcionalidad permiten validar valor con riesgo acotado.) Tj ET 
+0.00 0.49 0.20 rg BT /F2 8.0 Tf 52.0 582.4 Td (•) Tj ET 
+0.08 0.12 0.18 rg BT /F2 7.7 Tf 64.0 582.4 Td (Qué no se hace: ) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 125.6 582.4 Td (normalizar horas extra ni suprimir controles. Se hace visible el costo de cada decisión, se protege la capacidad de) Tj ET 
+0.20 0.22 0.25 rg BT /F1 7.7 Tf 64.0 572.5 Td (recuperación del equipo y negocio participa en las decisiones de alcance y riesgo.) Tj ET 
+endstream
+endobj
+28 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+29 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+30 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+31 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 32
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000191 00000 n 
+0000000347 00000 n 
+0000000507 00000 n 
+0000004975 00000 n 
+0000005135 00000 n 
+0000013330 00000 n 
+0000013490 00000 n 
+0000024049 00000 n 
+0000024211 00000 n 
+0000036072 00000 n 
+0000036234 00000 n 
+0000040560 00000 n 
+0000040722 00000 n 
+0000050007 00000 n 
+0000050169 00000 n 
+0000063551 00000 n 
+0000063713 00000 n 
+0000069359 00000 n 
+0000069521 00000 n 
+0000079194 00000 n 
+0000079356 00000 n 
+0000089704 00000 n 
+0000089866 00000 n 
+0000104113 00000 n 
+0000104275 00000 n 
+0000108210 00000 n 
+0000108308 00000 n 
+0000108411 00000 n 
+0000108507 00000 n 
+trailer
+<< /Size 32 /Root 1 0 R /Info 3 0 R >>
+startxref
+108608
+%%EOF
